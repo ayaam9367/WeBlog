@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --main-bg-color: purple;
+  --font1: "Baloo Bhai", cursive;
+  --font2: "Roboto", sans-serif;
+  --hover-color: rgb(229, 226, 226);
+}
+
+.font1{
+  font: var(--font1);
+}
+
+.font2{
+  font: var(--font2);
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.max-width-1 {
+  width: 80vw;
+}
+
+.max-width-2 {
+  width: 60vw;
+}
+
+.btn {
+  padding: 0px 5px;
+  padding-top: 2px;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-family: var(--font1);
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;   /*easy change of color on the button to give a transition effect*/
+}
+
+.btn:hover{
+    color: white;
+    background-color: green;
+}
+
+.form-input {
+  padding: 0px 5px; /*font1 already has padding*/
+  padding-top: 2px;
+  font-size: 14px;
+  margin: 0 3px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: var(--font1);
+}
