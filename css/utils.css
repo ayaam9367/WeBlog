@@ -28,6 +28,12 @@
   width: 60vw;
 }
 
+/*for the <hr> element */
+.my-2{
+  margin-top: 20px;
+  margin-bottom:20px
+}
+
 .btn {
   padding: 0px 5px;
   padding-top: 2px;
