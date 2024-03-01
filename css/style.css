@@ -48,7 +48,7 @@
 }
 
 .content {
-  height: 255px;
+  height: 100%;
   /*background-color: rgb(200, 200, 237); /*very light blue*/
   display: flex;
   margin-top: 12px;
@@ -142,4 +142,8 @@
 
 .footer a {
   color: white;
+}
+
+.dropdown{
+  display: none;
 }
