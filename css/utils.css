@@ -8,6 +8,10 @@
   --hover-color: rgb(229, 226, 226);
 }
 
+.center{
+  text-align: center;
+}
+
 .font1{
   font: var(--font1);
 }
@@ -58,4 +62,14 @@
   border: 1px solid black;
   border-radius: 5px;
   font-family: var(--font1);
+}
+
+.form-box input, textarea{
+  width: 52vw;
+  padding: 0px 6px;
+  margin: 7px 0;
+  font-size: 18px;
+  font-family: var(--font1);
+  border: 2px solid black;
+    border-radius: 5px;
 }

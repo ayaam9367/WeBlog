@@ -1,0 +1,38 @@
+.contact-content {
+  height: 255px;
+  height: 83vh;
+  /*background-color: rgb(200, 200, 237); /*very light blue*/
+  display: flex;
+  margin-top: 12px;
+  padding: 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-content::after {
+  content: "";
+  background-image: url("../img/home.jpg");
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  opacity: 0.15;
+  background-size: cover;
+  z-index: -1;
+}
+
+.form-box {
+  padding: 5px;
+}
+
+.form-box input {
+  width: 35vw;
+  height: 2vw;
+}
+
+.form-box textarea {
+  width: 35vw;
+}
+
+.contact-content-left{
+    padding: 50px;
+}

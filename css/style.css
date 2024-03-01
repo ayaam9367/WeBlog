@@ -44,6 +44,7 @@
 }
 
 .nav-right {
+  margin: 0px;
 }
 
 .content {
@@ -63,6 +64,7 @@
   height: inherit;
   opacity: 0.15;
   background-size: cover;
+  /* z-index: -1; */
 }
 
 .content-left {
@@ -71,6 +73,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 50px;
+  z-index: 1;
 }
 
 .content-right {
@@ -89,7 +92,22 @@
 
 .home-articles {
   height: 455px;
+  position: relative;
   /* background-color: rgb(228, 167, 167); */
+}
+
+.year-box{
+  position: absolute; 
+  width: 230px;
+  height: 230px ;
+  right: -50px;
+  top: 100px;
+  font-size: 18px;
+  /* background-color: red; */
+}
+
+.year-box div{
+  margin: 12px 0px;
 }
 
 .home-articles p {
@@ -99,6 +117,7 @@
 
 .home-article {
   display: flex;
+  
 }
 
 .home-article-content {
